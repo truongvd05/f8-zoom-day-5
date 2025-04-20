@@ -1,0 +1,105 @@
+.blog{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+h2 {
+    margin: 20px 0;
+}
+.search .input{
+    display: block;
+    font-size: 1rem;
+    padding: 15px;
+    height: 20px;
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search {
+    padding-bottom: 8px;
+    border-bottom: 1px solid black;
+}
+.title {
+    margin-top: 40px;
+}
+.human{
+    display: flex;
+    margin-top: 40px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.human-img {
+    border-radius: 50%;
+}
+.human-left {
+    font-size: .9rem;
+    width: 50%;
+}
+.human-text p b {
+    margin-left: 15px;
+    font-size: 1rem;
+}
+.human-text p {
+    margin-right: 10px;
+    font-size: .9rem;
+}
+.date {
+    margin-top: 7px;
+    margin-left: 15px;
+    display: flex;
+    font-weight: 100;
+}
+.human-right {
+    margin-left: auto;
+}
+.pin {
+    margin-right: 5px;
+}
+.pin:hover {
+    cursor: pointer;
+    color: orange;
+}
+.font {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.text {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+li {
+    width: 100%;
+    list-style:decimal;
+    margin: 20px;
+    opacity: 0.8;
+}
+.footer {
+    display: flex;
+    margin-top: 50px;
+}
+label {
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.img-comment{
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+
+}
+input {
+    width: 350px;
+    padding: 3px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
