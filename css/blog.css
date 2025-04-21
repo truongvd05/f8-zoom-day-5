@@ -3,8 +3,51 @@
     margin-right: auto;
     width: 700px;
 }
+body :where(h1, h2, h3, p)::first-letter{
+    font-size: 200%;
+    font-weight: bold;
+    color: #8A2BE2;
+    
+}
+p::first-line{
+    font-size: 20px;
+    text-decoration: underline;
+}
+::selection {
+    color: rgb(16, 204, 204);
+    background: yellow
+}
+p{ 
+    color: black;
+}
+:nth-of-type(1) {
+    color: red;
+}
 h2 {
     margin: 20px 0;
+}
+.heading {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.heading-back {
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    cursor: pointer;
+    min-width: 200px;
+}
+.heading-img, .user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-right: 20px;
+
+}
+.heading-css {
+    padding-top: 10px;
+    opacity: 0.5;
 }
 .search .input{
     display: block;
@@ -12,17 +55,38 @@ h2 {
     padding: 15px;
     height: 20px;
     width: 400px;
-    margin-top: 10px;
+    margin-top: 12px;
     border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
 }
 .search {
     padding-bottom: 8px;
-    border-bottom: 1px solid black;
+    width: 100%;
+}
+.user {
+    display: flex;
+    min-width: 200px;
+    padding-top: 10px;
+}
+.user-text {
+    margin-right: 20px;
+}
+.user-img {
+    border-radius: 50%;
+}
+.alarm {
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .title {
     margin-top: 40px;
+}
+.user-name {
+    margin-left: 15px;
+    display: flex;
+    font-weight: 100;
 }
 .human{
     display: flex;
@@ -47,7 +111,6 @@ h2 {
     font-size: .9rem;
 }
 .date {
-    margin-top: 7px;
     margin-left: 15px;
     display: flex;
     font-weight: 100;
